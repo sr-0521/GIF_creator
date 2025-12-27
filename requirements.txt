@@ -1,19 +1,7 @@
+cat > requirements.txt << 'EOF'
 flask
 flask-cors
 imageio
 gunicorn
 pillow
-```
-
-### `Procfile` (no file extension)
-```
-web: gunicorn app:app
-```
-
-### `.gitignore`
-```
-myenv/
-__pycache__/
-*.pyc
-temp_uploads/
-.DS_Store
+EOF
